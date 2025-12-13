@@ -35,7 +35,8 @@ class BLIP2Model:
         )
         
         # Use GPU if available
-        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        # self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        self.device =  "cpu"
         self.model.to(self.device)
         
         logger.info(f"Model loaded successfully on {self.device}")

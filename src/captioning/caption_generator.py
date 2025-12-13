@@ -49,9 +49,9 @@ class CaptionGenerator:
         caption = self.model.generate_caption_from_path(image_path, used_prompt)
 
         return{
-            "image_path ": image_path,
-            "prompt ": used_prompt,
-            "caption ": caption
+            "image_path": image_path,
+            "prompt": used_prompt,
+            "caption": caption
         }
 
     def caption_batch(
@@ -89,24 +89,25 @@ class CaptionGenerator:
         return results
     
 
-    # Convenience function for quick usage
-    def generate_caption(
-        image_path: str, 
-        prompt: Optional[str] = None
-    ) -> str:
-        """
-        Quick function to generate caption for an image.
+    
+# Convenience function for quick usage
+def generate_caption(
+    image_path: str, 
+    prompt: Optional[str] = None
+) -> str:
+    """
+    Quick function to generate caption for an image.
+    
+    Args:
+        image_path: Path to image file
+        prompt: Optional text prompt
         
-        Args:
-            image_path: Path to image file
-            prompt: Optional text prompt
-            
-        Returns:
-            Generated caption
-        """
-        generator = CaptionGenerator()
-        result = generator.caption_single(image_path, prompt)
-        return result["caption"]
+    Returns:
+        Generated caption
+    """
+    generator = CaptionGenerator()
+    result = generator.caption_single(image_path, prompt)
+    return result["caption"]
 
 
 
