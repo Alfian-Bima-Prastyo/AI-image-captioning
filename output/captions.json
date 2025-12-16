@@ -1,0 +1,55 @@
+{
+  "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+  "title": "Artificial intelligence - Wikipedia",
+  "total_images_found": 5,
+  "images_processed": 5,
+  "images_failed": 0,
+  "results": [
+    {
+      "image_url": "https://en.wikipedia.org/static/images/icons/wikipedia.png",
+      "caption": "the wikipedia globe is shown with the jigsaw puzzle",
+      "alt": "",
+      "title": "",
+      "width": 100,
+      "height": 100,
+      "index": 1
+    },
+    {
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Dall-e_3_%28jan_%2724%29_artificial_intelligence_icon.png/120px-Dall-e_3_%28jan_%2724%29_artificial_intelligence_icon.png",
+      "caption": "a circuit board with a brain in it",
+      "alt": "",
+      "title": "",
+      "width": 120,
+      "height": 120,
+      "index": 2
+    },
+    {
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Supervised_and_unsupervised_learning.png/500px-Supervised_and_unsupervised_learning.png",
+      "caption": "two diagrams showing the different types of learning",
+      "alt": "",
+      "title": "",
+      "width": 500,
+      "height": 222,
+      "index": 3
+    },
+    {
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Kismet-IMG_6007-gradient.jpg/250px-Kismet-IMG_6007-gradient.jpg",
+      "caption": "a robot with a face made of metal and a head made of paper",
+      "alt": "",
+      "title": "",
+      "width": 250,
+      "height": 167,
+      "index": 4
+    },
+    {
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Gradient_descent.gif/250px-Gradient_descent.gif",
+      "caption": "a yellow and black cloth with a grid pattern",
+      "alt": "",
+      "title": "",
+      "width": 250,
+      "height": 203,
+      "index": 5
+    }
+  ],
+  "errors": []
+}
