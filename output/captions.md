@@ -1,7 +1,7 @@
 # Artificial intelligence - Wikipedia
 
 **Source:** https://en.wikipedia.org/wiki/Artificial_intelligence  
-**Generated:** 2025-12-15 23:14:22
+**Generated:** 2025-12-16 16:49:41
 
 ## Summary
 
